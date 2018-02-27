@@ -743,7 +743,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-## Unique warnings
+## Unique warnings from all views to fix
 
 1. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
 
