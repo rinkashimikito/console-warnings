@@ -2,7 +2,7 @@
 
 ## In views
 
-#### ARTICLE (no SPA)
+#### ARTICLE (not SPA)
 
 1. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
 
@@ -167,7 +167,7 @@
     - The parent set the correct variables in the query - `BlogPostLoadedLayout.getFragment('latestVideos', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<BlogPostLoadedLayout ... ids={...} />`.
     - You are intentionally passing fake data to this component, in which case ignore this warning.
 
-#### GRAPHIC DETAILS (no SPA)
+#### GRAPHIC DETAILS (not SPA)
 
 1. warning.js:33 Warning: Received `false` for a non-boolean attribute `rel`.
 If you want to write it to the DOM, pass a string instead: rel="false" or rel={value.toString()}.
@@ -519,7 +519,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
 
 9. warning.js:33 Warning: RelayContainer: Expected prop `latestVideos` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
 
-#### LATEST UPDATES (no SPA)
+#### LATEST UPDATES (not SPA)
 
 1. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
 
@@ -620,7 +620,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
     - The parent set the correct variables in the query - `PrintEditionLayout.getFragment('storyCollection', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<PrintEditionLayout ...  />`.
     - You are intentionally passing fake data to this component, in which case ignore this warning.
 
-#### PRINT EDITION (no SPA)
+#### PRINT EDITION (not SPA)
 
 1. warning.js:33 Warning: RelayContainer: component `PrintEditionLayout` was rendered with variables that differ from the variables used to fetch fragment `storyCollection`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
     - The parent set the correct variables in the query - `PrintEditionLayout.getFragment('storyCollection', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<PrintEditionLayout ...  />`.
@@ -680,7 +680,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
 
 2. free-email-newsletter-signup?destination=%2Fnews%2Fmiddle-east-and-africa%2F21737335-former-aide-may-spill-beans-prime-minister-pressure-binyamin:1 [DOM] Found 2 elements with non-unique id #user-login: (More info: https://goo.gl/9p2vKq) <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=%2Ffree-email-newsletter-signup" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​ <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=/​newsletters" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​
 
-#### SIGNUP PAGE (no SPA)
+#### SIGNUP PAGE (not SPA)
 
 1. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
 
