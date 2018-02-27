@@ -1,0 +1,27 @@
+warning.js:33 Warning: RelayContainer: component `PrintEditionLayout` was rendered with variables that differ from the variables used to fetch fragment `storyCollection`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `PrintEditionLayout.getFragment('storyCollection', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<PrintEditionLayout ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
+    in Footer (created by Footer)
+    in Footer (created by Relay(Footer))
+    in Relay(Footer) (created by withRouter(Relay(Footer)))
+    in withRouter(Relay(Footer)) (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication

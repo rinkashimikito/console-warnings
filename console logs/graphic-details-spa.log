@@ -1,0 +1,118 @@
+warning.js:33 Warning: RelayContainer: Expected prop `storyCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestUpdates` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `relatedStoryCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestVideos` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: Failed prop type: The prop `location` is marked as required in `ContentMapperLayout`, but its value is `undefined`.
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: RelayContainer: component `HeaderLayout` was rendered with variables that differ from the variables used to fetch fragment `blog`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `HeaderLayout.getFragment('blog', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<HeaderLayout ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: Failed prop type: Invalid prop `children` supplied to `MainContentLayout`, expected a ReactNode.
+    in MainContentLayout (created by Connect(MainContentLayout))
+    in Connect(MainContentLayout) (created by TeaserListLayout)
+    in div (created by TeaserListLayout)
+    in TeaserListLayout (created by TeaserListOptimistic)
+    in TeaserListOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: RelayContainer: component `TeaserLayout` was rendered with variables that differ from the variables used to fetch fragment `blogPost`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `TeaserLayout.getFragment('blogPost', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<TeaserLayout ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: Received `false` for a non-boolean attribute `rel`.
+If you want to write it to the DOM, pass a string instead: rel="false" or rel={value.toString()}.
+If you used to conditionally omit it with rel={condition && value}, pass rel={condition ? value : undefined} instead.
+    in a (created by Link)
+    in Link (created by Link)
+    in Link (created by TeaserListLayout)
+    in li (created by TeaserListLayout)
+    in ul (created by TeaserListLayout)
+    in div (created by TeaserListLayout)
+    in div (created by TeaserListLayout)
+    in div (created by MainContentLayout)
+    in MainContentLayout (created by Connect(MainContentLayout))
+    in Connect(MainContentLayout) (created by TeaserListLayout)
+    in div (created by MainContentLayout)
+    in div (created by MainContentLayout)
+    in MainContentLayout (created by Connect(MainContentLayout))
+    in Connect(MainContentLayout) (created by TeaserListLayout)
+    in div (created by TeaserListLayout)
+    in TeaserListLayout (created by Relay(TeaserListLayout))
+    in Relay(TeaserListLayout) (created by TeaserListOptimistic)
+    in TeaserListOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication

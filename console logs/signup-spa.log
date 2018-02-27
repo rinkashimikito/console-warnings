@@ -1,0 +1,27 @@
+warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
+    in Footer (created by Footer)
+    in Footer (created by Relay(Footer))
+    in Relay(Footer) (created by withRouter(Relay(Footer)))
+    in withRouter(Relay(Footer)) (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+
+
+free-email-newsletter-signup?destination=%2Fnews%2Fmiddle-east-and-africa%2F21737335-former-aide-may-spill-beans-prime-minister-pressure-binyamin:1 [DOM] Found 2 elements with non-unique id #user-login: (More info: https://goo.gl/9p2vKq) <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=%2Ffree-email-newsletter-signup" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​ <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=/​newsletters" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​

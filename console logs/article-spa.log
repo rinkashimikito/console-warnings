@@ -1,0 +1,124 @@
+warning.js:33 Warning: RelayContainer: Expected prop `storyCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestUpdates` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `relatedStoryCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestVideos` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: Failed prop type: The prop `blogPost.commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+    in BlogPostLayout (created by BlogPostOptimistic)
+    in BlogPostOptimistic (created by I13nBlogPostOptimistic)
+    in I13nBlogPostOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: RelayContainer: component `BlogPostIdentityLayout` was rendered with variables that differ from the variables used to fetch fragment `parent`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `BlogPostIdentityLayout.getFragment('parent', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<BlogPostIdentityLayout ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: Failed prop type: The prop `commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+    in BlogPostLayout (created by Connect(BlogPostLayout))
+    in Connect(BlogPostLayout) (created by I13nConnect(BlogPostLayout))
+    in I13nConnect(BlogPostLayout) (created by BlogPostLayout)
+    in div (created by MainContentLayout)
+    in div (created by MainContentLayout)
+    in MainContentLayout (created by Connect(MainContentLayout))
+    in Connect(MainContentLayout) (created by BlogPostLayout)
+    in div (created by BlogPostLayout)
+    in BlogPostLayout (created by BlogPostOptimistic)
+    in BlogPostOptimistic (created by I13nBlogPostOptimistic)
+    in I13nBlogPostOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: Failed prop type: The prop `commentStatus` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+    in BlogPostLayout (created by Connect(BlogPostLayout))
+    in Connect(BlogPostLayout) (created by I13nConnect(BlogPostLayout))
+    in I13nConnect(BlogPostLayout) (created by BlogPostLayout)
+    in div (created by MainContentLayout)
+    in div (created by MainContentLayout)
+    in MainContentLayout (created by Connect(MainContentLayout))
+    in Connect(MainContentLayout) (created by BlogPostLayout)
+    in div (created by BlogPostLayout)
+    in BlogPostLayout (created by BlogPostOptimistic)
+    in BlogPostOptimistic (created by I13nBlogPostOptimistic)
+    in I13nBlogPostOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: Cannot update during an existing state transition (such as within `render` or another component's constructor). Render methods should be a pure function of props and state; constructor side-effects are an anti-pattern, but can be moved to `componentWillMount`.
+
+warning.js:33 Warning: RelayContainer: component `StoryCollectionComponent` was rendered with variables that differ from the variables used to fetch fragment `latestVideos`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `StoryCollectionComponent.getFragment('latestVideos', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<StoryCollectionComponent ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: RelayContainer: component `BlogPostLoadedLayout` was rendered with variables that differ from the variables used to fetch fragment `latestVideos`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{"ids":[21708482,21721883,21727028,21711118,21731346]}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `BlogPostLoadedLayout.getFragment('latestVideos', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<BlogPostLoadedLayout ... ids={...} />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.

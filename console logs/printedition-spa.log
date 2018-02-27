@@ -1,0 +1,69 @@
+warning.js:33 Warning: RelayContainer: component `UniversalComponent` was rendered with variables that differ from the variables used to fetch fragment `mapper`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{"page":0,"collectionID":21708482}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `UniversalComponent.getFragment('mapper', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<UniversalComponent ... page={...} collectionID={...} />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
+
+warning.js:33 Warning: Failed prop type: The prop `location` is marked as required in `ContentMapperLayout`, but its value is `undefined`.
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: Failed prop type: The prop `pageInformationStore` is marked as required in `PrintEditionLayout`, but its value is `undefined`.
+    in PrintEditionLayout (created by PrintEditionOptimistic)
+    in PrintEditionOptimistic (created by ContentMapperLayout)
+    in ContentMapperLayout (created by UniversalComponent)
+    in UniversalComponent (created by Relay(UniversalComponent))
+    in Relay(UniversalComponent) (created by Connect(Relay(UniversalComponent)))
+    in Connect(Relay(UniversalComponent)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in main (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in div (created by MainLayout)
+    in MainLayout (created by Relay(MainLayout))
+    in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+    in Connect(Relay(MainLayout)) (created by RouteContainer)
+    in StaticContainer (created by RouteContainer)
+    in RouteContainer (created by RouterContext)
+    in RouterContext (created by Router)
+    in RelayStaticContainer (created by RelayReadyStateRenderer)
+    in RelayReadyStateRenderer (created by IsomorphicRenderer)
+    in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+    in IsomorphicRelayRouterContext (created by Router)
+    in Router (created by Application)
+    in Provider (created by Application)
+    in Application (created by RootI13nApplication)
+    in RootI13nApplication
+
+warning.js:33 Warning: RelayContainer: Expected prop `storyCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestUpdates` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `relatedStoryCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: Expected prop `latestVideos` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
+
+warning.js:33 Warning: RelayContainer: component `PrintEditionLayout` was rendered with variables that differ from the variables used to fetch fragment `storyCollection`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{}`. This can indicate one of two possibilities:
+ - The parent set the correct variables in the query - `PrintEditionLayout.getFragment('storyCollection', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<PrintEditionLayout ...  />`.
+ - You are intentionally passing fake data to this component, in which case ignore this warning.
