@@ -745,32 +745,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
 
 ## Unique warnings from all views to fix
 
-1. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
-
-        in Footer (created by Footer)
-        in Footer (created by Relay(Footer))
-        in Relay(Footer) (created by withRouter(Relay(Footer)))
-        in withRouter(Relay(Footer)) (created by MainLayout)
-        in div (created by MainLayout)
-        in div (created by MainLayout)
-        in div (created by MainLayout)
-        in div (created by MainLayout)
-        in MainLayout (created by Relay(MainLayout))
-        in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
-        in Connect(Relay(MainLayout)) (created by RouteContainer)
-        in StaticContainer (created by RouteContainer)
-        in RouteContainer (created by RouterContext)
-        in RouterContext (created by Router)
-        in RelayStaticContainer (created by RelayReadyStateRenderer)
-        in RelayReadyStateRenderer (created by IsomorphicRenderer)
-        in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
-        in IsomorphicRelayRouterContext (created by Router)
-        in Router (created by Application)
-        in Provider (created by Application)
-        in Application (created by RootI13nApplication)
-        in RootI13nApplication
-
-2. warning.js:33 Warning: Failed prop type: The prop `blogPost.commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+1. warning.js:33 Warning: Failed prop type: The prop `blogPost.commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
 
         in BlogPostLayout (created by BlogPostOptimistic)
         in BlogPostOptimistic (created by I13nBlogPostOptimistic)
@@ -800,7 +775,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-3. warning.js:33 Warning: Failed prop type: The prop `commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+2. warning.js:33 Warning: Failed prop type: The prop `commentCount` is marked as required in `BlogPostLayout`, but its value is `undefined`.
 
         in BlogPostLayout (created by Connect(BlogPostLayout))
         in Connect(BlogPostLayout) (created by I13nConnect(BlogPostLayout))
@@ -838,7 +813,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-4. warning.js:33 Warning: Failed prop type: The prop `commentStatus` is marked as required in `BlogPostLayout`, but its value is `undefined`.
+3. warning.js:33 Warning: Failed prop type: The prop `commentStatus` is marked as required in `BlogPostLayout`, but its value is `undefined`.
 
         in BlogPostLayout (created by Connect(BlogPostLayout))
         in Connect(BlogPostLayout) (created by I13nConnect(BlogPostLayout))
@@ -876,7 +851,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-5. warning.js:33 Warning: Failed prop type: The prop `location` is marked as required in `ContentMapperLayout`, but its value is `undefined`.
+4. warning.js:33 Warning: Failed prop type: The prop `location` is marked as required in `ContentMapperLayout`, but its value is `undefined`.
 
         in ContentMapperLayout (created by UniversalComponent)
         in UniversalComponent (created by Relay(UniversalComponent))
@@ -903,7 +878,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-6. warning.js:33 Warning: Failed prop type: The prop `pageInformationStore` is marked as required in `PrintEditionLayout`, but its value is `undefined`.
+5. warning.js:33 Warning: Failed prop type: The prop `pageInformationStore` is marked as required in `PrintEditionLayout`, but its value is `undefined`.
 
         in PrintEditionLayout (created by PrintEditionOptimistic)
         in PrintEditionOptimistic (created by ContentMapperLayout)
@@ -933,7 +908,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in RootI13nApplication
 
 ___
-7. warning.js:33 Warning: Received `false` for a non-boolean attribute `rel`.
+6. warning.js:33 Warning: Received `false` for a non-boolean attribute `rel`.
 If you want to write it to the DOM, pass a string instead: rel="false" or rel={value.toString()}.
 If you used to conditionally omit it with rel={condition && value}, pass rel={condition ? value : undefined} instead.
 
@@ -980,7 +955,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-8. warning.js:33 Warning: Failed prop type: Invalid prop `children` supplied to `MainContentLayout`, expected a ReactNode.
+7. warning.js:33 Warning: Failed prop type: Invalid prop `children` supplied to `MainContentLayout`, expected a ReactNode.
 
         in MainContentLayout (created by Connect(MainContentLayout))
         in Connect(MainContentLayout) (created by TeaserListLayout)
@@ -1012,7 +987,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-9. warning.js:33 Warning: validateDOMNesting(...): \<a> cannot appear as a descendant of \<a>.
+8. warning.js:33 Warning: validateDOMNesting(...): \<a> cannot appear as a descendant of \<a>.
 
         in a (created by TeaserLayout)
         in div (created by TeaserLayout)
@@ -1036,6 +1011,31 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in StaticContainer (created by RouteContainer)
         in RouteContainer (created by RouterContext)
         in main (created by MainLayout)
+        in div (created by MainLayout)
+        in div (created by MainLayout)
+        in div (created by MainLayout)
+        in MainLayout (created by Relay(MainLayout))
+        in Relay(MainLayout) (created by Connect(Relay(MainLayout)))
+        in Connect(Relay(MainLayout)) (created by RouteContainer)
+        in StaticContainer (created by RouteContainer)
+        in RouteContainer (created by RouterContext)
+        in RouterContext (created by Router)
+        in RelayStaticContainer (created by RelayReadyStateRenderer)
+        in RelayReadyStateRenderer (created by IsomorphicRenderer)
+        in IsomorphicRenderer (created by IsomorphicRelayRouterContext)
+        in IsomorphicRelayRouterContext (created by Router)
+        in Router (created by Application)
+        in Provider (created by Application)
+        in Application (created by RootI13nApplication)
+        in RootI13nApplication
+
+9. warning.js:33 Warning: Failed prop type: Footer: prop type `children` is invalid; it must be a function, usually from the `prop-types` package, but received `undefined`.
+
+        in Footer (created by Footer)
+        in Footer (created by Relay(Footer))
+        in Relay(Footer) (created by withRouter(Relay(Footer)))
+        in withRouter(Relay(Footer)) (created by MainLayout)
+        in div (created by MainLayout)
         in div (created by MainLayout)
         in div (created by MainLayout)
         in div (created by MainLayout)
