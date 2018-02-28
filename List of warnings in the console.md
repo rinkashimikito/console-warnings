@@ -932,7 +932,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Application (created by RootI13nApplication)
         in RootI13nApplication
 
-
+___
 7. warning.js:33 Warning: Received `false` for a non-boolean attribute `rel`.
 If you want to write it to the DOM, pass a string instead: rel="false" or rel={value.toString()}.
 If you used to conditionally omit it with rel={condition && value}, pass rel={condition ? value : undefined} instead.
@@ -1084,7 +1084,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
         in Provider (created by Application)
         in Application (created by RootI13nApplication)
         in RootI13nApplication
-
+___
 11. warning.js:33 Warning: RelayContainer: Expected prop `storyCollection` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
 
 12. warning.js:33 Warning: RelayContainer: Expected prop `latestUpdates` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
@@ -1093,6 +1093,7 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
 
 14. warning.js:33 Warning: RelayContainer: Expected prop `latestVideos` to be supplied to `UniversalComponent`, but got `undefined`. Pass an explicit `null` if this is intentional.
 
+___
 15. warning.js:33 Warning: RelayContainer: component `BlogPostLoadedLayout` was rendered with variables that differ from the variables used to fetch fragment `latestVideos`. The fragment was fetched with variables `(not fetched)`, but rendered with variables `{"ids":[21708482,21721883,21727028,21711118,21731346]}`. This can indicate one of two possibilities:
     - The parent set the correct variables in the query - `BlogPostLoadedLayout.getFragment('latestVideos', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<BlogPostLoadedLayout ... ids={...} />`.
     - You are intentionally passing fake data to this component, in which case ignore this warning.
@@ -1125,6 +1126,8 @@ If you used to conditionally omit it with rel={condition && value}, pass rel={co
     - The parent set the correct variables in the query - `PrintEditionLayout.getFragment('storyCollection', {...})` - but did not pass the same variables when rendering the component. Be sure to tell the component what variables to use by passing them as props: `<PrintEditionLayout ...  />`.
     - You are intentionally passing fake data to this component, in which case ignore this warning.
 
+___
 23. warning.js:33 Warning: Cannot update during an existing state transition (such as within `render` or another component's constructor). Render methods should be a pure function of props and state; constructor side-effects are an anti-pattern, but can be moved to `componentWillMount`.
 
+___
 24. free-email-newsletter-signup?destination=%2Fnews%2Fmiddle-east-and-africa%2F21737335-former-aide-may-spill-beans-prime-minister-pressure-binyamin:1 [DOM] Found 2 elements with non-unique id #user-login: (More info: https://goo.gl/9p2vKq) <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=%2Ffree-email-newsletter-signup" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​ <form action=​"https:​/​/​stage.economist.com/​user/​login?destination=/​newsletters" accept-charset=​"UTF-8" method=​"post" id=​"user-login" class=​"user-menu-login-form">​…​</form>​
